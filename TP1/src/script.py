@@ -24,16 +24,11 @@ def parseJson(inputFile:str) -> dict:
             }
         if exam["modalidade"] not in clubs[club_id]["sports"]:
             clubs[club_id]["sports"].append(exam["modalidade"])
-        current_sport_id = 0
         if exam["modalidade"] not in sports:
             sportSet.add(exam["modalidade"])
             sports[exam["modalidade"]] = {
-                "id": sport_id,
+                "id": exam["modalidade"],
             }
-            current_sport_id = sport_id
-            sport_id += 1
-        else:
-            current_sport_id = sports[exam["modalidade"]]["id"]
 
         athlete = {
             "firstName" : exam["nome"]["primeiro"],
@@ -41,7 +36,7 @@ def parseJson(inputFile:str) -> dict:
             "age": exam["idade"],
             "gender": exam["género"],
             "address": exam["morada"],
-            "sport": current_sport_id,
+            "sport": exam["modalidade"],
             "club": club_id,
             "email": exam["email"],
             "federated": exam["federado"]

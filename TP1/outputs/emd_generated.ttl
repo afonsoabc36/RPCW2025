@@ -151,7 +151,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta0
 :Atleta0 rdf:type owl:NamedIndividual , 
                   :Pessoa ;
-         :pratica :Modalidade0 ;
+         :pratica :ModalidadeFutebol ;
          :representa :ClubeGDGoma ;
          :eFederado "False"^^xsd:boolean ;
          :temEmail "emily.terrell@gdgoma.org" ;
@@ -165,7 +165,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta1
 :Atleta1 rdf:type owl:NamedIndividual , 
                   :Pessoa ;
-         :pratica :Modalidade1 ;
+         :pratica :ModalidadeTriatlo ;
          :representa :ClubeAVCfamalicão ;
          :eFederado "False"^^xsd:boolean ;
          :temEmail "medina.hartman@avcfamalicão.name" ;
@@ -179,7 +179,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta2
 :Atleta2 rdf:type owl:NamedIndividual , 
                   :Pessoa ;
-         :pratica :Modalidade2 ;
+         :pratica :ModalidadeBadminton ;
          :representa :ClubeABCbraga ;
          :eFederado "True"^^xsd:boolean ;
          :temEmail "andrews.rivas@abcbraga.us" ;
@@ -193,7 +193,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta3
 :Atleta3 rdf:type owl:NamedIndividual , 
                   :Pessoa ;
-         :pratica :Modalidade3 ;
+         :pratica :ModalidadeCiclismo ;
          :representa :ClubeClube_de_Orientação_do_Minho ;
          :eFederado "False"^^xsd:boolean ;
          :temEmail "marcella.combs@clube de orientação do minho.com" ;
@@ -207,7 +207,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta4
 :Atleta4 rdf:type owl:NamedIndividual , 
                   :Pessoa ;
-         :pratica :Modalidade4 ;
+         :pratica :ModalidadePatinagem ;
          :representa :ClubeSCBraga ;
          :eFederado "False"^^xsd:boolean ;
          :temEmail "mendoza.buckner@scbraga.ca" ;
@@ -221,7 +221,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta5
 :Atleta5 rdf:type owl:NamedIndividual , 
                   :Pessoa ;
-         :pratica :Modalidade1 ;
+         :pratica :ModalidadeTriatlo ;
          :representa :ClubeClube_de_Orientação_do_Minho ;
          :eFederado "False"^^xsd:boolean ;
          :temEmail "sellers.copeland@clube de orientação do minho.net" ;
@@ -235,7 +235,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta6
 :Atleta6 rdf:type owl:NamedIndividual , 
                   :Pessoa ;
-         :pratica :Modalidade2 ;
+         :pratica :ModalidadeBadminton ;
          :representa :ClubeAVCfamalicão ;
          :eFederado "False"^^xsd:boolean ;
          :temEmail "bernard.stokes@avcfamalicão.biz" ;
@@ -249,7 +249,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta7
 :Atleta7 rdf:type owl:NamedIndividual , 
                   :Pessoa ;
-         :pratica :Modalidade1 ;
+         :pratica :ModalidadeTriatlo ;
          :representa :ClubeABCbraga ;
          :eFederado "False"^^xsd:boolean ;
          :temEmail "alfreda.raymond@abcbraga.tv" ;
@@ -263,7 +263,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta8
 :Atleta8 rdf:type owl:NamedIndividual , 
                   :Pessoa ;
-         :pratica :Modalidade1 ;
+         :pratica :ModalidadeTriatlo ;
          :representa :ClubeSCBraga ;
          :eFederado "False"^^xsd:boolean ;
          :temEmail "alston.green@scbraga.biz" ;
@@ -277,7 +277,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta9
 :Atleta9 rdf:type owl:NamedIndividual , 
                   :Pessoa ;
-         :pratica :Modalidade5 ;
+         :pratica :ModalidadeParapente ;
          :representa :ClubeACDRcrespos ;
          :eFederado "True"^^xsd:boolean ;
          :temEmail "paige.mccarthy@acdrcrespos.co.uk" ;
@@ -291,7 +291,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta10
 :Atleta10 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade6 ;
+          :pratica :ModalidadeOrientação ;
           :representa :ClubeACRroriz ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "claudine.gill@acrroriz.me" ;
@@ -305,7 +305,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta11
 :Atleta11 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade7 ;
+          :pratica :ModalidadeEsgrima ;
           :representa :ClubeClube_de_Orientação_do_Minho ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "summer.calhoun@clube de orientação do minho.info" ;
@@ -319,7 +319,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta12
 :Atleta12 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade8 ;
+          :pratica :ModalidadeBTT ;
           :representa :ClubeVitoria ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "slater.david@vitoria.org" ;
@@ -333,7 +333,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta13
 :Atleta13 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade9 ;
+          :pratica :ModalidadeAtletismo ;
           :representa :ClubeAmigosMontanha ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "ophelia.boyd@amigosmontanha.name" ;
@@ -347,7 +347,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta14
 :Atleta14 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade6 ;
+          :pratica :ModalidadeOrientação ;
           :representa :ClubeClube_de_Orientação_do_Minho ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "evans.singleton@clube de orientação do minho.us" ;
@@ -361,7 +361,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta15
 :Atleta15 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade6 ;
+          :pratica :ModalidadeOrientação ;
           :representa :ClubeVitoria ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "church.bishop@vitoria.com" ;
@@ -375,7 +375,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta16
 :Atleta16 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade10 ;
+          :pratica :ModalidadeSUP ;
           :representa :ClubeEDViana ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "woodard.bennett@edviana.ca" ;
@@ -389,7 +389,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta17
 :Atleta17 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade11 ;
+          :pratica :ModalidadeBasquetebol ;
           :representa :ClubeVitoria ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "vasquez.michael@vitoria.net" ;
@@ -403,7 +403,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta18
 :Atleta18 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade3 ;
+          :pratica :ModalidadeCiclismo ;
           :representa :ClubeAVCfamalicão ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "holloway.maxwell@avcfamalicão.biz" ;
@@ -417,7 +417,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta19
 :Atleta19 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade12 ;
+          :pratica :ModalidadeKaraté ;
           :representa :ClubeClube_de_Orientação_do_Minho ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "michele.barber@clube de orientação do minho.tv" ;
@@ -431,7 +431,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta20
 :Atleta20 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade10 ;
+          :pratica :ModalidadeSUP ;
           :representa :ClubeVitoria ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "chambers.burton@vitoria.biz" ;
@@ -445,7 +445,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta21
 :Atleta21 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade8 ;
+          :pratica :ModalidadeBTT ;
           :representa :ClubeAmigosMontanha ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "massey.goodman@amigosmontanha.co.uk" ;
@@ -459,7 +459,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta22
 :Atleta22 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade0 ;
+          :pratica :ModalidadeFutebol ;
           :representa :ClubeSCBraga ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "klein.cameron@scbraga.me" ;
@@ -473,7 +473,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta23
 :Atleta23 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade11 ;
+          :pratica :ModalidadeBasquetebol ;
           :representa :ClubeACDRcrespos ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "lambert.mueller@acdrcrespos.info" ;
@@ -487,7 +487,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta24
 :Atleta24 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade3 ;
+          :pratica :ModalidadeCiclismo ;
           :representa :ClubeACDRcrespos ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "ewing.drake@acdrcrespos.org" ;
@@ -501,7 +501,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta25
 :Atleta25 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade13 ;
+          :pratica :ModalidadeDança ;
           :representa :ClubeACDRcrespos ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "lester.manning@acdrcrespos.name" ;
@@ -515,7 +515,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta26
 :Atleta26 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade0 ;
+          :pratica :ModalidadeFutebol ;
           :representa :ClubeAmigosMontanha ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "nina.fowler@amigosmontanha.us" ;
@@ -529,7 +529,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta27
 :Atleta27 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade10 ;
+          :pratica :ModalidadeSUP ;
           :representa :ClubeClube_de_Orientação_do_Minho ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "lynn.shaw@clube de orientação do minho.com" ;
@@ -543,7 +543,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta28
 :Atleta28 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade2 ;
+          :pratica :ModalidadeBadminton ;
           :representa :ClubeABCbraga ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "betty.blake@abcbraga.ca" ;
@@ -557,7 +557,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta29
 :Atleta29 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade14 ;
+          :pratica :ModalidadeAndebol ;
           :representa :ClubeEDViana ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "oneill.roth@edviana.net" ;
@@ -571,7 +571,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta30
 :Atleta30 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade2 ;
+          :pratica :ModalidadeBadminton ;
           :representa :ClubeVitoria ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "roxanne.miles@vitoria.biz" ;
@@ -585,7 +585,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta31
 :Atleta31 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade0 ;
+          :pratica :ModalidadeFutebol ;
           :representa :ClubeAmigosMontanha ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "cecelia.adams@amigosmontanha.tv" ;
@@ -599,7 +599,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta32
 :Atleta32 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade9 ;
+          :pratica :ModalidadeAtletismo ;
           :representa :ClubeEDViana ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "irma.jacobs@edviana.biz" ;
@@ -613,7 +613,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta33
 :Atleta33 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade6 ;
+          :pratica :ModalidadeOrientação ;
           :representa :ClubeEDViana ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "angelia.noel@edviana.co.uk" ;
@@ -627,7 +627,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta34
 :Atleta34 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade3 ;
+          :pratica :ModalidadeCiclismo ;
           :representa :ClubeClube_de_Orientação_do_Minho ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "sallie.shaffer@clube de orientação do minho.me" ;
@@ -641,7 +641,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta35
 :Atleta35 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade10 ;
+          :pratica :ModalidadeSUP ;
           :representa :ClubeVitoria ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "jordan.bonner@vitoria.info" ;
@@ -655,7 +655,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta36
 :Atleta36 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade9 ;
+          :pratica :ModalidadeAtletismo ;
           :representa :ClubeGDGoma ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "bartlett.sexton@gdgoma.org" ;
@@ -669,7 +669,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta37
 :Atleta37 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade11 ;
+          :pratica :ModalidadeBasquetebol ;
           :representa :ClubeAVCfamalicão ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "opal.stewart@avcfamalicão.name" ;
@@ -683,7 +683,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta38
 :Atleta38 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade15 ;
+          :pratica :ModalidadeEquitação ;
           :representa :ClubeClube_de_Orientação_do_Minho ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "ola.glover@clube de orientação do minho.us" ;
@@ -697,7 +697,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta39
 :Atleta39 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade6 ;
+          :pratica :ModalidadeOrientação ;
           :representa :ClubeSCBraga ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "shelia.york@scbraga.com" ;
@@ -711,7 +711,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta40
 :Atleta40 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade4 ;
+          :pratica :ModalidadePatinagem ;
           :representa :ClubeABCbraga ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "raquel.ratliff@abcbraga.ca" ;
@@ -725,7 +725,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta41
 :Atleta41 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade5 ;
+          :pratica :ModalidadeParapente ;
           :representa :ClubeAmigosMontanha ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "burke.weeks@amigosmontanha.net" ;
@@ -739,7 +739,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta42
 :Atleta42 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade3 ;
+          :pratica :ModalidadeCiclismo ;
           :representa :ClubeGDGoma ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "best.french@gdgoma.biz" ;
@@ -753,7 +753,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta43
 :Atleta43 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade7 ;
+          :pratica :ModalidadeEsgrima ;
           :representa :ClubeAmigosMontanha ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "fowler.alvarez@amigosmontanha.tv" ;
@@ -767,7 +767,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta44
 :Atleta44 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade7 ;
+          :pratica :ModalidadeEsgrima ;
           :representa :ClubeAVCfamalicão ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "terri.avila@avcfamalicão.biz" ;
@@ -781,7 +781,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta45
 :Atleta45 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade2 ;
+          :pratica :ModalidadeBadminton ;
           :representa :ClubeAVCfamalicão ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "alford.small@avcfamalicão.co.uk" ;
@@ -795,7 +795,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta46
 :Atleta46 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade3 ;
+          :pratica :ModalidadeCiclismo ;
           :representa :ClubeAmigosMontanha ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "key.arnold@amigosmontanha.me" ;
@@ -809,7 +809,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta47
 :Atleta47 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade8 ;
+          :pratica :ModalidadeBTT ;
           :representa :ClubeAmigosMontanha ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "nguyen.diaz@amigosmontanha.info" ;
@@ -823,7 +823,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta48
 :Atleta48 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade9 ;
+          :pratica :ModalidadeAtletismo ;
           :representa :ClubeAVCfamalicão ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "sherry.morales@avcfamalicão.org" ;
@@ -837,7 +837,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta49
 :Atleta49 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade8 ;
+          :pratica :ModalidadeBTT ;
           :representa :ClubeVitoria ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "crane.ballard@vitoria.name" ;
@@ -851,7 +851,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta50
 :Atleta50 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade12 ;
+          :pratica :ModalidadeKaraté ;
           :representa :ClubeSCBraga ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "terry.chaney@scbraga.us" ;
@@ -865,7 +865,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta51
 :Atleta51 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade12 ;
+          :pratica :ModalidadeKaraté ;
           :representa :ClubeAVCfamalicão ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "sheppard.bryant@avcfamalicão.com" ;
@@ -879,7 +879,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta52
 :Atleta52 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade8 ;
+          :pratica :ModalidadeBTT ;
           :representa :ClubeABCbraga ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "janis.mckinney@abcbraga.ca" ;
@@ -893,7 +893,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta53
 :Atleta53 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade14 ;
+          :pratica :ModalidadeAndebol ;
           :representa :ClubeVitoria ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "sue.waters@vitoria.net" ;
@@ -907,7 +907,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta54
 :Atleta54 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade15 ;
+          :pratica :ModalidadeEquitação ;
           :representa :ClubeACRroriz ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "cynthia.page@acrroriz.biz" ;
@@ -921,7 +921,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta55
 :Atleta55 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade9 ;
+          :pratica :ModalidadeAtletismo ;
           :representa :ClubeVitoria ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "montgomery.rhodes@vitoria.tv" ;
@@ -935,7 +935,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta56
 :Atleta56 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade11 ;
+          :pratica :ModalidadeBasquetebol ;
           :representa :ClubeACDRcrespos ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "claire.joyce@acdrcrespos.biz" ;
@@ -949,7 +949,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta57
 :Atleta57 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade3 ;
+          :pratica :ModalidadeCiclismo ;
           :representa :ClubeACDRcrespos ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "evangelina.key@acdrcrespos.co.uk" ;
@@ -963,7 +963,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta58
 :Atleta58 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade14 ;
+          :pratica :ModalidadeAndebol ;
           :representa :ClubeACRroriz ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "effie.gibson@acrroriz.me" ;
@@ -977,7 +977,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta59
 :Atleta59 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade4 ;
+          :pratica :ModalidadePatinagem ;
           :representa :ClubeAmigosMontanha ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "maureen.cobb@amigosmontanha.info" ;
@@ -991,7 +991,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta60
 :Atleta60 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade5 ;
+          :pratica :ModalidadeParapente ;
           :representa :ClubeAVCfamalicão ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "dee.holman@avcfamalicão.org" ;
@@ -1005,7 +1005,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta61
 :Atleta61 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade14 ;
+          :pratica :ModalidadeAndebol ;
           :representa :ClubeGDGoma ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "larson.morin@gdgoma.name" ;
@@ -1019,7 +1019,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta62
 :Atleta62 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade13 ;
+          :pratica :ModalidadeDança ;
           :representa :ClubeAmigosMontanha ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "ursula.martinez@amigosmontanha.us" ;
@@ -1033,7 +1033,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta63
 :Atleta63 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade11 ;
+          :pratica :ModalidadeBasquetebol ;
           :representa :ClubeGDGoma ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "english.clemons@gdgoma.com" ;
@@ -1047,7 +1047,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta64
 :Atleta64 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade2 ;
+          :pratica :ModalidadeBadminton ;
           :representa :ClubeACDRcrespos ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "stella.jackson@acdrcrespos.ca" ;
@@ -1061,7 +1061,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta65
 :Atleta65 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade3 ;
+          :pratica :ModalidadeCiclismo ;
           :representa :ClubeAVCfamalicão ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "haley.joseph@avcfamalicão.net" ;
@@ -1075,7 +1075,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta66
 :Atleta66 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade4 ;
+          :pratica :ModalidadePatinagem ;
           :representa :ClubeVitoria ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "kelsey.roberts@vitoria.biz" ;
@@ -1089,7 +1089,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta67
 :Atleta67 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade13 ;
+          :pratica :ModalidadeDança ;
           :representa :ClubeGDGoma ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "watson.lynch@gdgoma.tv" ;
@@ -1103,7 +1103,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta68
 :Atleta68 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade12 ;
+          :pratica :ModalidadeKaraté ;
           :representa :ClubeEDViana ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "chasity.coffey@edviana.biz" ;
@@ -1117,7 +1117,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta69
 :Atleta69 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade13 ;
+          :pratica :ModalidadeDança ;
           :representa :ClubeEDViana ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "paula.delaney@edviana.co.uk" ;
@@ -1131,7 +1131,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta70
 :Atleta70 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade0 ;
+          :pratica :ModalidadeFutebol ;
           :representa :ClubeACRroriz ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "galloway.sanders@acrroriz.me" ;
@@ -1145,7 +1145,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta71
 :Atleta71 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade10 ;
+          :pratica :ModalidadeSUP ;
           :representa :ClubeACDRcrespos ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "tina.blankenship@acdrcrespos.info" ;
@@ -1159,7 +1159,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta72
 :Atleta72 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade5 ;
+          :pratica :ModalidadeParapente ;
           :representa :ClubeAVCfamalicão ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "whitehead.montgomery@avcfamalicão.org" ;
@@ -1173,7 +1173,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta73
 :Atleta73 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade15 ;
+          :pratica :ModalidadeEquitação ;
           :representa :ClubeABCbraga ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "dominguez.chambers@abcbraga.name" ;
@@ -1187,7 +1187,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta74
 :Atleta74 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade1 ;
+          :pratica :ModalidadeTriatlo ;
           :representa :ClubeSCBraga ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "booth.eaton@scbraga.us" ;
@@ -1201,7 +1201,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta75
 :Atleta75 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade5 ;
+          :pratica :ModalidadeParapente ;
           :representa :ClubeAmigosMontanha ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "joanna.grant@amigosmontanha.com" ;
@@ -1215,7 +1215,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta76
 :Atleta76 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade6 ;
+          :pratica :ModalidadeOrientação ;
           :representa :ClubeACRroriz ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "jeri.pearson@acrroriz.ca" ;
@@ -1229,7 +1229,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta77
 :Atleta77 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade3 ;
+          :pratica :ModalidadeCiclismo ;
           :representa :ClubeACDRcrespos ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "sanchez.mcgee@acdrcrespos.net" ;
@@ -1243,7 +1243,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta78
 :Atleta78 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade7 ;
+          :pratica :ModalidadeEsgrima ;
           :representa :ClubeACDRcrespos ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "magdalena.francis@acdrcrespos.biz" ;
@@ -1257,7 +1257,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta79
 :Atleta79 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade2 ;
+          :pratica :ModalidadeBadminton ;
           :representa :ClubeAVCfamalicão ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "morris.poole@avcfamalicão.tv" ;
@@ -1271,7 +1271,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta80
 :Atleta80 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade1 ;
+          :pratica :ModalidadeTriatlo ;
           :representa :ClubeGDGoma ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "rodriguez.gonzalez@gdgoma.biz" ;
@@ -1285,7 +1285,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta81
 :Atleta81 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade6 ;
+          :pratica :ModalidadeOrientação ;
           :representa :ClubeGDGoma ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "christine.rice@gdgoma.co.uk" ;
@@ -1299,7 +1299,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta82
 :Atleta82 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade12 ;
+          :pratica :ModalidadeKaraté ;
           :representa :ClubeAmigosMontanha ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "valdez.harper@amigosmontanha.me" ;
@@ -1313,7 +1313,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta83
 :Atleta83 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade9 ;
+          :pratica :ModalidadeAtletismo ;
           :representa :ClubeClube_de_Orientação_do_Minho ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "berta.clay@clube de orientação do minho.info" ;
@@ -1327,7 +1327,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta84
 :Atleta84 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade15 ;
+          :pratica :ModalidadeEquitação ;
           :representa :ClubeClube_de_Orientação_do_Minho ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "bonnie.sandoval@clube de orientação do minho.org" ;
@@ -1341,7 +1341,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta85
 :Atleta85 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade9 ;
+          :pratica :ModalidadeAtletismo ;
           :representa :ClubeEDViana ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "stein.wiggins@edviana.name" ;
@@ -1355,7 +1355,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta86
 :Atleta86 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade10 ;
+          :pratica :ModalidadeSUP ;
           :representa :ClubeGDGoma ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "tanya.mcclain@gdgoma.us" ;
@@ -1369,7 +1369,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta87
 :Atleta87 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade9 ;
+          :pratica :ModalidadeAtletismo ;
           :representa :ClubeVitoria ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "perry.sanford@vitoria.com" ;
@@ -1383,7 +1383,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta88
 :Atleta88 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade2 ;
+          :pratica :ModalidadeBadminton ;
           :representa :ClubeAmigosMontanha ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "maxine.rutledge@amigosmontanha.ca" ;
@@ -1397,7 +1397,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta89
 :Atleta89 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade2 ;
+          :pratica :ModalidadeBadminton ;
           :representa :ClubeSCBraga ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "tucker.morse@scbraga.net" ;
@@ -1411,7 +1411,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta90
 :Atleta90 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade2 ;
+          :pratica :ModalidadeBadminton ;
           :representa :ClubeACRroriz ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "thelma.schmidt@acrroriz.biz" ;
@@ -1425,7 +1425,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta91
 :Atleta91 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade8 ;
+          :pratica :ModalidadeBTT ;
           :representa :ClubeACDRcrespos ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "charles.kim@acdrcrespos.tv" ;
@@ -1439,7 +1439,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta92
 :Atleta92 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade12 ;
+          :pratica :ModalidadeKaraté ;
           :representa :ClubeAmigosMontanha ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "duncan.davidson@amigosmontanha.biz" ;
@@ -1453,7 +1453,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta93
 :Atleta93 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade2 ;
+          :pratica :ModalidadeBadminton ;
           :representa :ClubeACRroriz ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "gertrude.dillon@acrroriz.co.uk" ;
@@ -1467,7 +1467,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta94
 :Atleta94 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade8 ;
+          :pratica :ModalidadeBTT ;
           :representa :ClubeVitoria ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "brennan.santana@vitoria.me" ;
@@ -1481,7 +1481,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta95
 :Atleta95 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade5 ;
+          :pratica :ModalidadeParapente ;
           :representa :ClubeAmigosMontanha ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "ball.barlow@amigosmontanha.info" ;
@@ -1495,7 +1495,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta96
 :Atleta96 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade1 ;
+          :pratica :ModalidadeTriatlo ;
           :representa :ClubeClube_de_Orientação_do_Minho ;
           :eFederado "True"^^xsd:boolean ;
           :temEmail "oneil.baxter@clube de orientação do minho.org" ;
@@ -1509,7 +1509,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta97
 :Atleta97 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade14 ;
+          :pratica :ModalidadeAndebol ;
           :representa :ClubeVitoria ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "helena.mayo@vitoria.name" ;
@@ -1523,7 +1523,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta98
 :Atleta98 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade4 ;
+          :pratica :ModalidadePatinagem ;
           :representa :ClubeACRroriz ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "martin.brewer@acrroriz.us" ;
@@ -1537,7 +1537,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta99
 :Atleta99 rdf:type owl:NamedIndividual , 
                    :Pessoa ;
-          :pratica :Modalidade2 ;
+          :pratica :ModalidadeBadminton ;
           :representa :ClubeVitoria ;
           :eFederado "False"^^xsd:boolean ;
           :temEmail "wilder.greene@vitoria.com" ;
@@ -1551,7 +1551,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta100
 :Atleta100 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade7 ;
+           :pratica :ModalidadeEsgrima ;
            :representa :ClubeEDViana ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "harrison.finch@edviana.us" ;
@@ -1565,7 +1565,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta101
 :Atleta101 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade9 ;
+           :pratica :ModalidadeAtletismo ;
            :representa :ClubeEDViana ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "jordan.alvarez@edviana.biz" ;
@@ -1579,7 +1579,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta102
 :Atleta102 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade4 ;
+           :pratica :ModalidadePatinagem ;
            :representa :ClubeABCbraga ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "lane.norton@abcbraga.io" ;
@@ -1593,7 +1593,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta103
 :Atleta103 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade7 ;
+           :pratica :ModalidadeEsgrima ;
            :representa :ClubeSCBraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "carrillo.munoz@scbraga.biz" ;
@@ -1607,7 +1607,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta104
 :Atleta104 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade8 ;
+           :pratica :ModalidadeBTT ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "barrett.frederick@avcfamalicão.net" ;
@@ -1621,7 +1621,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta105
 :Atleta105 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade2 ;
+           :pratica :ModalidadeBadminton ;
            :representa :ClubeAmigosMontanha ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "harmon.stone@amigosmontanha.com" ;
@@ -1635,7 +1635,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta106
 :Atleta106 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade4 ;
+           :pratica :ModalidadePatinagem ;
            :representa :ClubeAmigosMontanha ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "chandra.potts@amigosmontanha.tv" ;
@@ -1649,7 +1649,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta107
 :Atleta107 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade2 ;
+           :pratica :ModalidadeBadminton ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "john.warner@clube de orientação do minho.co.uk" ;
@@ -1663,7 +1663,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta108
 :Atleta108 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade4 ;
+           :pratica :ModalidadePatinagem ;
            :representa :ClubeABCbraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "casey.bowman@abcbraga.ca" ;
@@ -1677,7 +1677,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta109
 :Atleta109 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade1 ;
+           :pratica :ModalidadeTriatlo ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "mccullough.pena@clube de orientação do minho.name" ;
@@ -1691,7 +1691,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta110
 :Atleta110 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade1 ;
+           :pratica :ModalidadeTriatlo ;
            :representa :ClubeACDRcrespos ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "brianna.bentley@acdrcrespos.org" ;
@@ -1705,7 +1705,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta111
 :Atleta111 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade16 ;
+           :pratica :ModalidadeTénis ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "nixon.hendrix@avcfamalicão.info" ;
@@ -1719,7 +1719,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta112
 :Atleta112 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade7 ;
+           :pratica :ModalidadeEsgrima ;
            :representa :ClubeEDViana ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "buckner.luna@edviana.us" ;
@@ -1733,7 +1733,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta113
 :Atleta113 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade16 ;
+           :pratica :ModalidadeTénis ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "britt.zamora@clube de orientação do minho.biz" ;
@@ -1747,7 +1747,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta114
 :Atleta114 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade12 ;
+           :pratica :ModalidadeKaraté ;
            :representa :ClubeSCBraga ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "hendrix.bauer@scbraga.io" ;
@@ -1761,7 +1761,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta115
 :Atleta115 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade16 ;
+           :pratica :ModalidadeTénis ;
            :representa :ClubeEDViana ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "travis.sampson@edviana.biz" ;
@@ -1775,7 +1775,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta116
 :Atleta116 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade1 ;
+           :pratica :ModalidadeTriatlo ;
            :representa :ClubeGDGoma ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "darla.ware@gdgoma.net" ;
@@ -1789,7 +1789,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta117
 :Atleta117 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade16 ;
+           :pratica :ModalidadeTénis ;
            :representa :ClubeACRroriz ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "peters.vaughn@acrroriz.com" ;
@@ -1803,7 +1803,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta118
 :Atleta118 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade0 ;
+           :pratica :ModalidadeFutebol ;
            :representa :ClubeGDGoma ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "lawrence.herman@gdgoma.tv" ;
@@ -1817,7 +1817,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta119
 :Atleta119 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade1 ;
+           :pratica :ModalidadeTriatlo ;
            :representa :ClubeEDViana ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "chang.oneill@edviana.co.uk" ;
@@ -1831,7 +1831,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta120
 :Atleta120 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade8 ;
+           :pratica :ModalidadeBTT ;
            :representa :ClubeEDViana ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "patrick.mcintyre@edviana.ca" ;
@@ -1845,7 +1845,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta121
 :Atleta121 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade14 ;
+           :pratica :ModalidadeAndebol ;
            :representa :ClubeAmigosMontanha ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "joyce.evans@amigosmontanha.name" ;
@@ -1859,7 +1859,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta122
 :Atleta122 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade1 ;
+           :pratica :ModalidadeTriatlo ;
            :representa :ClubeSCBraga ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "larsen.villarreal@scbraga.org" ;
@@ -1873,7 +1873,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta123
 :Atleta123 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade11 ;
+           :pratica :ModalidadeBasquetebol ;
            :representa :ClubeACDRcrespos ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "morrow.yang@acdrcrespos.info" ;
@@ -1887,7 +1887,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta124
 :Atleta124 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade14 ;
+           :pratica :ModalidadeAndebol ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "dunn.horn@clube de orientação do minho.us" ;
@@ -1901,7 +1901,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta125
 :Atleta125 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade7 ;
+           :pratica :ModalidadeEsgrima ;
            :representa :ClubeEDViana ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "viola.medina@edviana.biz" ;
@@ -1915,7 +1915,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta126
 :Atleta126 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade5 ;
+           :pratica :ModalidadeParapente ;
            :representa :ClubeACDRcrespos ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "valdez.barnes@acdrcrespos.io" ;
@@ -1929,7 +1929,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta127
 :Atleta127 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade7 ;
+           :pratica :ModalidadeEsgrima ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "sweet.gibbs@avcfamalicão.biz" ;
@@ -1943,7 +1943,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta128
 :Atleta128 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade16 ;
+           :pratica :ModalidadeTénis ;
            :representa :ClubeACRroriz ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "addie.hayes@acrroriz.net" ;
@@ -1957,7 +1957,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta129
 :Atleta129 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade10 ;
+           :pratica :ModalidadeSUP ;
            :representa :ClubeAmigosMontanha ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "may.holt@amigosmontanha.com" ;
@@ -1971,7 +1971,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta130
 :Atleta130 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade7 ;
+           :pratica :ModalidadeEsgrima ;
            :representa :ClubeABCbraga ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "christensen.boyd@abcbraga.tv" ;
@@ -1985,7 +1985,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta131
 :Atleta131 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade14 ;
+           :pratica :ModalidadeAndebol ;
            :representa :ClubeAmigosMontanha ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "workman.franks@amigosmontanha.co.uk" ;
@@ -1999,7 +1999,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta132
 :Atleta132 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade14 ;
+           :pratica :ModalidadeAndebol ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "lucile.underwood@avcfamalicão.ca" ;
@@ -2013,7 +2013,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta133
 :Atleta133 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade7 ;
+           :pratica :ModalidadeEsgrima ;
            :representa :ClubeAmigosMontanha ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "heath.bishop@amigosmontanha.name" ;
@@ -2027,7 +2027,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta134
 :Atleta134 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade2 ;
+           :pratica :ModalidadeBadminton ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "rosales.mejia@clube de orientação do minho.org" ;
@@ -2041,7 +2041,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta135
 :Atleta135 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade9 ;
+           :pratica :ModalidadeAtletismo ;
            :representa :ClubeVitoria ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "ray.howe@vitoria.info" ;
@@ -2055,7 +2055,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta136
 :Atleta136 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade9 ;
+           :pratica :ModalidadeAtletismo ;
            :representa :ClubeACDRcrespos ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "suarez.campbell@acdrcrespos.us" ;
@@ -2069,7 +2069,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta137
 :Atleta137 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade3 ;
+           :pratica :ModalidadeCiclismo ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "shaffer.le@avcfamalicão.biz" ;
@@ -2083,7 +2083,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta138
 :Atleta138 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade3 ;
+           :pratica :ModalidadeCiclismo ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "justine.wise@avcfamalicão.io" ;
@@ -2097,7 +2097,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta139
 :Atleta139 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade1 ;
+           :pratica :ModalidadeTriatlo ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "villarreal.tucker@avcfamalicão.biz" ;
@@ -2111,7 +2111,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta140
 :Atleta140 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade2 ;
+           :pratica :ModalidadeBadminton ;
            :representa :ClubeACRroriz ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "monica.neal@acrroriz.net" ;
@@ -2125,7 +2125,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta141
 :Atleta141 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade4 ;
+           :pratica :ModalidadePatinagem ;
            :representa :ClubeABCbraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "lloyd.dotson@abcbraga.com" ;
@@ -2139,7 +2139,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta142
 :Atleta142 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade13 ;
+           :pratica :ModalidadeDança ;
            :representa :ClubeVitoria ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "mccray.barker@vitoria.tv" ;
@@ -2153,7 +2153,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta143
 :Atleta143 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade5 ;
+           :pratica :ModalidadeParapente ;
            :representa :ClubeSCBraga ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "sellers.hunter@scbraga.co.uk" ;
@@ -2167,7 +2167,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta144
 :Atleta144 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade4 ;
+           :pratica :ModalidadePatinagem ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "cathryn.fletcher@clube de orientação do minho.ca" ;
@@ -2181,7 +2181,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta145
 :Atleta145 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade11 ;
+           :pratica :ModalidadeBasquetebol ;
            :representa :ClubeVitoria ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "dee.lowery@vitoria.name" ;
@@ -2195,7 +2195,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta146
 :Atleta146 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade1 ;
+           :pratica :ModalidadeTriatlo ;
            :representa :ClubeACRroriz ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "freeman.wyatt@acrroriz.org" ;
@@ -2209,7 +2209,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta147
 :Atleta147 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade12 ;
+           :pratica :ModalidadeKaraté ;
            :representa :ClubeABCbraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "guy.drake@abcbraga.info" ;
@@ -2223,7 +2223,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta148
 :Atleta148 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade1 ;
+           :pratica :ModalidadeTriatlo ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "mendez.good@clube de orientação do minho.us" ;
@@ -2237,7 +2237,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta149
 :Atleta149 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade5 ;
+           :pratica :ModalidadeParapente ;
            :representa :ClubeACRroriz ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "burnett.hogan@acrroriz.biz" ;
@@ -2251,7 +2251,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta150
 :Atleta150 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade0 ;
+           :pratica :ModalidadeFutebol ;
            :representa :ClubeABCbraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "jamie.cherry@abcbraga.io" ;
@@ -2265,7 +2265,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta151
 :Atleta151 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade12 ;
+           :pratica :ModalidadeKaraté ;
            :representa :ClubeACRroriz ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "bird.noble@acrroriz.biz" ;
@@ -2279,7 +2279,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta152
 :Atleta152 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade4 ;
+           :pratica :ModalidadePatinagem ;
            :representa :ClubeABCbraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "burgess.bradshaw@abcbraga.net" ;
@@ -2293,7 +2293,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta153
 :Atleta153 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade5 ;
+           :pratica :ModalidadeParapente ;
            :representa :ClubeACRroriz ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "laura.jacobson@acrroriz.com" ;
@@ -2307,7 +2307,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta154
 :Atleta154 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade2 ;
+           :pratica :ModalidadeBadminton ;
            :representa :ClubeSCBraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "blair.sherman@scbraga.tv" ;
@@ -2321,7 +2321,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta155
 :Atleta155 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade7 ;
+           :pratica :ModalidadeEsgrima ;
            :representa :ClubeSCBraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "bobbi.hawkins@scbraga.co.uk" ;
@@ -2335,7 +2335,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta156
 :Atleta156 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade11 ;
+           :pratica :ModalidadeBasquetebol ;
            :representa :ClubeACRroriz ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "montoya.anthony@acrroriz.ca" ;
@@ -2349,7 +2349,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta157
 :Atleta157 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade8 ;
+           :pratica :ModalidadeBTT ;
            :representa :ClubeACRroriz ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "hooper.kirby@acrroriz.name" ;
@@ -2363,7 +2363,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta158
 :Atleta158 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade7 ;
+           :pratica :ModalidadeEsgrima ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "wolfe.baird@avcfamalicão.org" ;
@@ -2377,7 +2377,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta159
 :Atleta159 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade10 ;
+           :pratica :ModalidadeSUP ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "lamb.graham@avcfamalicão.info" ;
@@ -2391,7 +2391,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta160
 :Atleta160 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade8 ;
+           :pratica :ModalidadeBTT ;
            :representa :ClubeABCbraga ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "valentine.fitzgerald@abcbraga.us" ;
@@ -2405,7 +2405,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta161
 :Atleta161 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade14 ;
+           :pratica :ModalidadeAndebol ;
            :representa :ClubeAmigosMontanha ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "herminia.mooney@amigosmontanha.biz" ;
@@ -2419,7 +2419,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta162
 :Atleta162 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade2 ;
+           :pratica :ModalidadeBadminton ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "golden.hopkins@avcfamalicão.io" ;
@@ -2433,7 +2433,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta163
 :Atleta163 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade1 ;
+           :pratica :ModalidadeTriatlo ;
            :representa :ClubeVitoria ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "lancaster.andrews@vitoria.biz" ;
@@ -2447,7 +2447,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta164
 :Atleta164 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade0 ;
+           :pratica :ModalidadeFutebol ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "elena.sullivan@clube de orientação do minho.net" ;
@@ -2461,7 +2461,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta165
 :Atleta165 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade14 ;
+           :pratica :ModalidadeAndebol ;
            :representa :ClubeACRroriz ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "deana.ramsey@acrroriz.com" ;
@@ -2475,7 +2475,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta166
 :Atleta166 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade4 ;
+           :pratica :ModalidadePatinagem ;
            :representa :ClubeACDRcrespos ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "mayra.rose@acdrcrespos.tv" ;
@@ -2489,7 +2489,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta167
 :Atleta167 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade10 ;
+           :pratica :ModalidadeSUP ;
            :representa :ClubeVitoria ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "tina.salinas@vitoria.co.uk" ;
@@ -2503,7 +2503,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta168
 :Atleta168 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade1 ;
+           :pratica :ModalidadeTriatlo ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "sheila.caldwell@avcfamalicão.ca" ;
@@ -2517,7 +2517,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta169
 :Atleta169 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade6 ;
+           :pratica :ModalidadeOrientação ;
            :representa :ClubeEDViana ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "hudson.duffy@edviana.name" ;
@@ -2531,7 +2531,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta170
 :Atleta170 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade6 ;
+           :pratica :ModalidadeOrientação ;
            :representa :ClubeABCbraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "guzman.douglas@abcbraga.org" ;
@@ -2545,7 +2545,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta171
 :Atleta171 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade6 ;
+           :pratica :ModalidadeOrientação ;
            :representa :ClubeACRroriz ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "ethel.bartlett@acrroriz.info" ;
@@ -2559,7 +2559,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta172
 :Atleta172 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade7 ;
+           :pratica :ModalidadeEsgrima ;
            :representa :ClubeAmigosMontanha ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "doyle.odom@amigosmontanha.us" ;
@@ -2573,7 +2573,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta173
 :Atleta173 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade3 ;
+           :pratica :ModalidadeCiclismo ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "araceli.castaneda@avcfamalicão.biz" ;
@@ -2587,7 +2587,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta174
 :Atleta174 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade9 ;
+           :pratica :ModalidadeAtletismo ;
            :representa :ClubeSCBraga ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "fuentes.walker@scbraga.io" ;
@@ -2601,7 +2601,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta175
 :Atleta175 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade11 ;
+           :pratica :ModalidadeBasquetebol ;
            :representa :ClubeACDRcrespos ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "sarah.moore@acdrcrespos.biz" ;
@@ -2615,7 +2615,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta176
 :Atleta176 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade6 ;
+           :pratica :ModalidadeOrientação ;
            :representa :ClubeGDGoma ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "cheryl.watson@gdgoma.net" ;
@@ -2629,7 +2629,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta177
 :Atleta177 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade14 ;
+           :pratica :ModalidadeAndebol ;
            :representa :ClubeACRroriz ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "langley.velez@acrroriz.com" ;
@@ -2643,7 +2643,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta178
 :Atleta178 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade0 ;
+           :pratica :ModalidadeFutebol ;
            :representa :ClubeGDGoma ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "alisa.morrison@gdgoma.tv" ;
@@ -2657,7 +2657,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta179
 :Atleta179 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade3 ;
+           :pratica :ModalidadeCiclismo ;
            :representa :ClubeABCbraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "malinda.merritt@abcbraga.co.uk" ;
@@ -2671,7 +2671,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta180
 :Atleta180 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade1 ;
+           :pratica :ModalidadeTriatlo ;
            :representa :ClubeABCbraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "lenora.kane@abcbraga.ca" ;
@@ -2685,7 +2685,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta181
 :Atleta181 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade0 ;
+           :pratica :ModalidadeFutebol ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "cabrera.curtis@avcfamalicão.name" ;
@@ -2699,7 +2699,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta182
 :Atleta182 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade8 ;
+           :pratica :ModalidadeBTT ;
            :representa :ClubeABCbraga ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "roseann.benjamin@abcbraga.org" ;
@@ -2713,7 +2713,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta183
 :Atleta183 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade5 ;
+           :pratica :ModalidadeParapente ;
            :representa :ClubeACDRcrespos ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "stafford.ray@acdrcrespos.info" ;
@@ -2727,7 +2727,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta184
 :Atleta184 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade4 ;
+           :pratica :ModalidadePatinagem ;
            :representa :ClubeACRroriz ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "jewel.trevino@acrroriz.us" ;
@@ -2741,7 +2741,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta185
 :Atleta185 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade16 ;
+           :pratica :ModalidadeTénis ;
            :representa :ClubeACRroriz ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "mckenzie.woods@acrroriz.biz" ;
@@ -2755,7 +2755,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta186
 :Atleta186 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade1 ;
+           :pratica :ModalidadeTriatlo ;
            :representa :ClubeGDGoma ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "jean.conley@gdgoma.io" ;
@@ -2769,7 +2769,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta187
 :Atleta187 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade8 ;
+           :pratica :ModalidadeBTT ;
            :representa :ClubeSCBraga ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "conway.alexander@scbraga.biz" ;
@@ -2783,7 +2783,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta188
 :Atleta188 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade14 ;
+           :pratica :ModalidadeAndebol ;
            :representa :ClubeACDRcrespos ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "maryann.joyce@acdrcrespos.net" ;
@@ -2797,7 +2797,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta189
 :Atleta189 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade3 ;
+           :pratica :ModalidadeCiclismo ;
            :representa :ClubeGDGoma ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "ayers.carroll@gdgoma.com" ;
@@ -2811,7 +2811,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta190
 :Atleta190 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade7 ;
+           :pratica :ModalidadeEsgrima ;
            :representa :ClubeGDGoma ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "bonita.mccormick@gdgoma.tv" ;
@@ -2825,7 +2825,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta191
 :Atleta191 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade12 ;
+           :pratica :ModalidadeKaraté ;
            :representa :ClubeEDViana ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "kathy.kramer@edviana.co.uk" ;
@@ -2839,7 +2839,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta192
 :Atleta192 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade11 ;
+           :pratica :ModalidadeBasquetebol ;
            :representa :ClubeEDViana ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "tonia.bryan@edviana.ca" ;
@@ -2853,7 +2853,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta193
 :Atleta193 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade1 ;
+           :pratica :ModalidadeTriatlo ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "barker.mercer@avcfamalicão.name" ;
@@ -2867,7 +2867,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta194
 :Atleta194 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade15 ;
+           :pratica :ModalidadeEquitação ;
            :representa :ClubeAmigosMontanha ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "mcfarland.tyson@amigosmontanha.org" ;
@@ -2881,7 +2881,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta195
 :Atleta195 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade10 ;
+           :pratica :ModalidadeSUP ;
            :representa :ClubeSCBraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "meagan.carter@scbraga.info" ;
@@ -2895,7 +2895,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta196
 :Atleta196 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade0 ;
+           :pratica :ModalidadeFutebol ;
            :representa :ClubeABCbraga ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "catalina.webb@abcbraga.us" ;
@@ -2909,7 +2909,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta197
 :Atleta197 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade7 ;
+           :pratica :ModalidadeEsgrima ;
            :representa :ClubeABCbraga ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "moses.sargent@abcbraga.biz" ;
@@ -2923,7 +2923,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta198
 :Atleta198 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade12 ;
+           :pratica :ModalidadeKaraté ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "preston.mccall@avcfamalicão.io" ;
@@ -2937,7 +2937,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta199
 :Atleta199 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade9 ;
+           :pratica :ModalidadeAtletismo ;
            :representa :ClubeACDRcrespos ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "christian.clements@acdrcrespos.biz" ;
@@ -2951,7 +2951,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta200
 :Atleta200 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade4 ;
+           :pratica :ModalidadePatinagem ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "jeanine.hester@avcfamalicão.name" ;
@@ -2965,7 +2965,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta201
 :Atleta201 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade14 ;
+           :pratica :ModalidadeAndebol ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "tonia.espinoza@avcfamalicão.ca" ;
@@ -2979,7 +2979,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta202
 :Atleta202 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade10 ;
+           :pratica :ModalidadeSUP ;
            :representa :ClubeSCBraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "alyssa.howard@scbraga.info" ;
@@ -2993,7 +2993,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta203
 :Atleta203 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade2 ;
+           :pratica :ModalidadeBadminton ;
            :representa :ClubeAmigosMontanha ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "merrill.fulton@amigosmontanha.org" ;
@@ -3007,7 +3007,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta204
 :Atleta204 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade13 ;
+           :pratica :ModalidadeDança ;
            :representa :ClubeABCbraga ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "jaime.erickson@abcbraga.co.uk" ;
@@ -3021,7 +3021,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta205
 :Atleta205 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade0 ;
+           :pratica :ModalidadeFutebol ;
            :representa :ClubeACDRcrespos ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "felicia.skinner@acdrcrespos.biz" ;
@@ -3035,7 +3035,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta206
 :Atleta206 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade12 ;
+           :pratica :ModalidadeKaraté ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "margaret.bray@clube de orientação do minho.biz" ;
@@ -3049,7 +3049,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta207
 :Atleta207 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade10 ;
+           :pratica :ModalidadeSUP ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "etta.cotton@avcfamalicão.us" ;
@@ -3063,7 +3063,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta208
 :Atleta208 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade15 ;
+           :pratica :ModalidadeEquitação ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "kelley.davidson@avcfamalicão.com" ;
@@ -3077,7 +3077,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta209
 :Atleta209 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade3 ;
+           :pratica :ModalidadeCiclismo ;
            :representa :ClubeSCBraga ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "crawford.merritt@scbraga.net" ;
@@ -3091,7 +3091,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta210
 :Atleta210 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade2 ;
+           :pratica :ModalidadeBadminton ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "kim.buck@avcfamalicão.tv" ;
@@ -3105,7 +3105,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta211
 :Atleta211 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade13 ;
+           :pratica :ModalidadeDança ;
            :representa :ClubeSCBraga ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "gilda.schmidt@scbraga.me" ;
@@ -3119,7 +3119,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta212
 :Atleta212 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade11 ;
+           :pratica :ModalidadeBasquetebol ;
            :representa :ClubeVitoria ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "mcintosh.aguirre@vitoria.name" ;
@@ -3133,7 +3133,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta213
 :Atleta213 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade13 ;
+           :pratica :ModalidadeDança ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "ida.bradshaw@clube de orientação do minho.ca" ;
@@ -3147,7 +3147,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta214
 :Atleta214 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade13 ;
+           :pratica :ModalidadeDança ;
            :representa :ClubeEDViana ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "jefferson.pacheco@edviana.info" ;
@@ -3161,7 +3161,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta215
 :Atleta215 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade15 ;
+           :pratica :ModalidadeEquitação ;
            :representa :ClubeACRroriz ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "olson.hickman@acrroriz.org" ;
@@ -3175,7 +3175,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta216
 :Atleta216 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade0 ;
+           :pratica :ModalidadeFutebol ;
            :representa :ClubeSCBraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "malinda.mccall@scbraga.co.uk" ;
@@ -3189,7 +3189,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta217
 :Atleta217 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade1 ;
+           :pratica :ModalidadeTriatlo ;
            :representa :ClubeACRroriz ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "raquel.dejesus@acrroriz.biz" ;
@@ -3203,7 +3203,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta218
 :Atleta218 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade4 ;
+           :pratica :ModalidadePatinagem ;
            :representa :ClubeGDGoma ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "daniel.chambers@gdgoma.biz" ;
@@ -3217,7 +3217,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta219
 :Atleta219 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade1 ;
+           :pratica :ModalidadeTriatlo ;
            :representa :ClubeACRroriz ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "samantha.sharp@acrroriz.us" ;
@@ -3231,7 +3231,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta220
 :Atleta220 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade11 ;
+           :pratica :ModalidadeBasquetebol ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "robert.herman@clube de orientação do minho.com" ;
@@ -3245,7 +3245,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta221
 :Atleta221 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade13 ;
+           :pratica :ModalidadeDança ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "olive.chapman@avcfamalicão.net" ;
@@ -3259,7 +3259,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta222
 :Atleta222 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade10 ;
+           :pratica :ModalidadeSUP ;
            :representa :ClubeAmigosMontanha ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "mccoy.blackburn@amigosmontanha.tv" ;
@@ -3273,7 +3273,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta223
 :Atleta223 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade10 ;
+           :pratica :ModalidadeSUP ;
            :representa :ClubeVitoria ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "lambert.ferrell@vitoria.me" ;
@@ -3287,7 +3287,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta224
 :Atleta224 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade13 ;
+           :pratica :ModalidadeDança ;
            :representa :ClubeVitoria ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "small.coffey@vitoria.name" ;
@@ -3301,7 +3301,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta225
 :Atleta225 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade3 ;
+           :pratica :ModalidadeCiclismo ;
            :representa :ClubeABCbraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "hicks.daniels@abcbraga.ca" ;
@@ -3315,7 +3315,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta226
 :Atleta226 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade14 ;
+           :pratica :ModalidadeAndebol ;
            :representa :ClubeEDViana ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "meghan.cabrera@edviana.info" ;
@@ -3329,7 +3329,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta227
 :Atleta227 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade7 ;
+           :pratica :ModalidadeEsgrima ;
            :representa :ClubeGDGoma ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "hubbard.hart@gdgoma.org" ;
@@ -3343,7 +3343,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta228
 :Atleta228 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade14 ;
+           :pratica :ModalidadeAndebol ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "chelsea.gallegos@avcfamalicão.co.uk" ;
@@ -3357,7 +3357,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta229
 :Atleta229 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade7 ;
+           :pratica :ModalidadeEsgrima ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "natalie.figueroa@clube de orientação do minho.biz" ;
@@ -3371,7 +3371,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta230
 :Atleta230 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade0 ;
+           :pratica :ModalidadeFutebol ;
            :representa :ClubeEDViana ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "hayes.ward@edviana.biz" ;
@@ -3385,7 +3385,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta231
 :Atleta231 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade7 ;
+           :pratica :ModalidadeEsgrima ;
            :representa :ClubeABCbraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "graves.mccray@abcbraga.us" ;
@@ -3399,7 +3399,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta232
 :Atleta232 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade12 ;
+           :pratica :ModalidadeKaraté ;
            :representa :ClubeAmigosMontanha ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "mavis.riley@amigosmontanha.com" ;
@@ -3413,7 +3413,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta233
 :Atleta233 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade5 ;
+           :pratica :ModalidadeParapente ;
            :representa :ClubeAmigosMontanha ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "salas.joseph@amigosmontanha.net" ;
@@ -3427,7 +3427,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta234
 :Atleta234 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade0 ;
+           :pratica :ModalidadeFutebol ;
            :representa :ClubeEDViana ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "carly.peck@edviana.tv" ;
@@ -3441,7 +3441,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta235
 :Atleta235 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade6 ;
+           :pratica :ModalidadeOrientação ;
            :representa :ClubeVitoria ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "ramirez.blevins@vitoria.me" ;
@@ -3455,7 +3455,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta236
 :Atleta236 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade6 ;
+           :pratica :ModalidadeOrientação ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "parks.saunders@clube de orientação do minho.name" ;
@@ -3469,7 +3469,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta237
 :Atleta237 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade0 ;
+           :pratica :ModalidadeFutebol ;
            :representa :ClubeAmigosMontanha ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "leanne.armstrong@amigosmontanha.ca" ;
@@ -3483,7 +3483,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta238
 :Atleta238 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade15 ;
+           :pratica :ModalidadeEquitação ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "kline.stark@avcfamalicão.info" ;
@@ -3497,7 +3497,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta239
 :Atleta239 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade13 ;
+           :pratica :ModalidadeDança ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "elliott.guzman@clube de orientação do minho.org" ;
@@ -3511,7 +3511,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta240
 :Atleta240 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade6 ;
+           :pratica :ModalidadeOrientação ;
            :representa :ClubeABCbraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "liz.baldwin@abcbraga.co.uk" ;
@@ -3525,7 +3525,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta241
 :Atleta241 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade5 ;
+           :pratica :ModalidadeParapente ;
            :representa :ClubeGDGoma ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "warner.bullock@gdgoma.biz" ;
@@ -3539,7 +3539,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta242
 :Atleta242 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade0 ;
+           :pratica :ModalidadeFutebol ;
            :representa :ClubeSCBraga ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "santana.harper@scbraga.biz" ;
@@ -3553,7 +3553,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta243
 :Atleta243 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade9 ;
+           :pratica :ModalidadeAtletismo ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "imelda.odonnell@avcfamalicão.us" ;
@@ -3567,7 +3567,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta244
 :Atleta244 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade0 ;
+           :pratica :ModalidadeFutebol ;
            :representa :ClubeAmigosMontanha ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "lila.curry@amigosmontanha.com" ;
@@ -3581,7 +3581,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta245
 :Atleta245 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade4 ;
+           :pratica :ModalidadePatinagem ;
            :representa :ClubeACDRcrespos ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "milagros.ellis@acdrcrespos.net" ;
@@ -3595,7 +3595,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta246
 :Atleta246 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade13 ;
+           :pratica :ModalidadeDança ;
            :representa :ClubeACDRcrespos ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "stafford.hale@acdrcrespos.tv" ;
@@ -3609,7 +3609,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta247
 :Atleta247 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade1 ;
+           :pratica :ModalidadeTriatlo ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "blevins.cline@clube de orientação do minho.me" ;
@@ -3623,7 +3623,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta248
 :Atleta248 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade5 ;
+           :pratica :ModalidadeParapente ;
            :representa :ClubeACDRcrespos ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "marisol.owen@acdrcrespos.name" ;
@@ -3637,7 +3637,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta249
 :Atleta249 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade9 ;
+           :pratica :ModalidadeAtletismo ;
            :representa :ClubeABCbraga ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "mcintyre.walsh@abcbraga.ca" ;
@@ -3651,7 +3651,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta250
 :Atleta250 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade0 ;
+           :pratica :ModalidadeFutebol ;
            :representa :ClubeACDRcrespos ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "valarie.silva@acdrcrespos.info" ;
@@ -3665,7 +3665,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta251
 :Atleta251 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade9 ;
+           :pratica :ModalidadeAtletismo ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "jimmie.beck@avcfamalicão.org" ;
@@ -3679,7 +3679,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta252
 :Atleta252 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade0 ;
+           :pratica :ModalidadeFutebol ;
            :representa :ClubeACDRcrespos ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "amparo.price@acdrcrespos.co.uk" ;
@@ -3693,7 +3693,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta253
 :Atleta253 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade6 ;
+           :pratica :ModalidadeOrientação ;
            :representa :ClubeEDViana ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "susanna.lowery@edviana.biz" ;
@@ -3707,7 +3707,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta254
 :Atleta254 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade9 ;
+           :pratica :ModalidadeAtletismo ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "flynn.huber@clube de orientação do minho.biz" ;
@@ -3721,7 +3721,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta255
 :Atleta255 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade15 ;
+           :pratica :ModalidadeEquitação ;
            :representa :ClubeACDRcrespos ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "elaine.allen@acdrcrespos.us" ;
@@ -3735,7 +3735,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta256
 :Atleta256 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade12 ;
+           :pratica :ModalidadeKaraté ;
            :representa :ClubeAmigosMontanha ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "gwen.pate@amigosmontanha.com" ;
@@ -3749,7 +3749,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta257
 :Atleta257 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade5 ;
+           :pratica :ModalidadeParapente ;
            :representa :ClubeACRroriz ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "leila.solis@acrroriz.net" ;
@@ -3763,7 +3763,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta258
 :Atleta258 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade13 ;
+           :pratica :ModalidadeDança ;
            :representa :ClubeGDGoma ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "mercedes.heath@gdgoma.tv" ;
@@ -3777,7 +3777,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta259
 :Atleta259 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade11 ;
+           :pratica :ModalidadeBasquetebol ;
            :representa :ClubeEDViana ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "althea.fitzpatrick@edviana.me" ;
@@ -3791,7 +3791,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta260
 :Atleta260 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade6 ;
+           :pratica :ModalidadeOrientação ;
            :representa :ClubeVitoria ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "arlene.morton@vitoria.name" ;
@@ -3805,7 +3805,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta261
 :Atleta261 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade8 ;
+           :pratica :ModalidadeBTT ;
            :representa :ClubeSCBraga ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "mosley.gonzales@scbraga.ca" ;
@@ -3819,7 +3819,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta262
 :Atleta262 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade13 ;
+           :pratica :ModalidadeDança ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "torres.hardy@clube de orientação do minho.info" ;
@@ -3833,7 +3833,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta263
 :Atleta263 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade13 ;
+           :pratica :ModalidadeDança ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "annmarie.petersen@clube de orientação do minho.org" ;
@@ -3847,7 +3847,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta264
 :Atleta264 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade12 ;
+           :pratica :ModalidadeKaraté ;
            :representa :ClubeACRroriz ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "osborn.green@acrroriz.co.uk" ;
@@ -3861,7 +3861,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta265
 :Atleta265 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade4 ;
+           :pratica :ModalidadePatinagem ;
            :representa :ClubeACRroriz ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "davenport.dominguez@acrroriz.biz" ;
@@ -3875,7 +3875,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta266
 :Atleta266 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade5 ;
+           :pratica :ModalidadeParapente ;
            :representa :ClubeAmigosMontanha ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "barton.massey@amigosmontanha.biz" ;
@@ -3889,7 +3889,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta267
 :Atleta267 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade6 ;
+           :pratica :ModalidadeOrientação ;
            :representa :ClubeACDRcrespos ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "holly.bowen@acdrcrespos.us" ;
@@ -3903,7 +3903,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta268
 :Atleta268 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade9 ;
+           :pratica :ModalidadeAtletismo ;
            :representa :ClubeAmigosMontanha ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "dennis.crawford@amigosmontanha.com" ;
@@ -3917,7 +3917,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta269
 :Atleta269 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade16 ;
+           :pratica :ModalidadeTénis ;
            :representa :ClubeSCBraga ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "oliver.mcleod@scbraga.net" ;
@@ -3931,7 +3931,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta270
 :Atleta270 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade3 ;
+           :pratica :ModalidadeCiclismo ;
            :representa :ClubeVitoria ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "tameka.orr@vitoria.tv" ;
@@ -3945,7 +3945,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta271
 :Atleta271 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade4 ;
+           :pratica :ModalidadePatinagem ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "foster.strickland@clube de orientação do minho.me" ;
@@ -3959,7 +3959,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta272
 :Atleta272 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade16 ;
+           :pratica :ModalidadeTénis ;
            :representa :ClubeSCBraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "marlene.rodgers@scbraga.name" ;
@@ -3973,7 +3973,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta273
 :Atleta273 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade14 ;
+           :pratica :ModalidadeAndebol ;
            :representa :ClubeACDRcrespos ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "shari.mathews@acdrcrespos.ca" ;
@@ -3987,7 +3987,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta274
 :Atleta274 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade2 ;
+           :pratica :ModalidadeBadminton ;
            :representa :ClubeACDRcrespos ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "josie.rasmussen@acdrcrespos.info" ;
@@ -4001,7 +4001,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta275
 :Atleta275 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade5 ;
+           :pratica :ModalidadeParapente ;
            :representa :ClubeEDViana ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "shelton.walton@edviana.org" ;
@@ -4015,7 +4015,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta276
 :Atleta276 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade8 ;
+           :pratica :ModalidadeBTT ;
            :representa :ClubeGDGoma ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "odonnell.russell@gdgoma.co.uk" ;
@@ -4029,7 +4029,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta277
 :Atleta277 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade10 ;
+           :pratica :ModalidadeSUP ;
            :representa :ClubeACRroriz ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "elba.le@acrroriz.biz" ;
@@ -4043,7 +4043,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta278
 :Atleta278 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade15 ;
+           :pratica :ModalidadeEquitação ;
            :representa :ClubeGDGoma ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "sweet.woodward@gdgoma.biz" ;
@@ -4057,7 +4057,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta279
 :Atleta279 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade13 ;
+           :pratica :ModalidadeDança ;
            :representa :ClubeACRroriz ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "wilkins.cummings@acrroriz.us" ;
@@ -4071,7 +4071,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta280
 :Atleta280 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade8 ;
+           :pratica :ModalidadeBTT ;
            :representa :ClubeACDRcrespos ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "rogers.noel@acdrcrespos.com" ;
@@ -4085,7 +4085,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta281
 :Atleta281 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade14 ;
+           :pratica :ModalidadeAndebol ;
            :representa :ClubeABCbraga ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "hodges.ashley@abcbraga.net" ;
@@ -4099,7 +4099,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta282
 :Atleta282 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade5 ;
+           :pratica :ModalidadeParapente ;
            :representa :ClubeAmigosMontanha ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "curtis.dillon@amigosmontanha.tv" ;
@@ -4113,7 +4113,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta283
 :Atleta283 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade16 ;
+           :pratica :ModalidadeTénis ;
            :representa :ClubeGDGoma ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "lelia.oliver@gdgoma.me" ;
@@ -4127,7 +4127,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta284
 :Atleta284 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade8 ;
+           :pratica :ModalidadeBTT ;
            :representa :ClubeSCBraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "fuentes.rogers@scbraga.name" ;
@@ -4141,7 +4141,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta285
 :Atleta285 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade6 ;
+           :pratica :ModalidadeOrientação ;
            :representa :ClubeAmigosMontanha ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "carole.lindsey@amigosmontanha.ca" ;
@@ -4155,7 +4155,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta286
 :Atleta286 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade10 ;
+           :pratica :ModalidadeSUP ;
            :representa :ClubeABCbraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "martinez.johns@abcbraga.info" ;
@@ -4169,7 +4169,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta287
 :Atleta287 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade15 ;
+           :pratica :ModalidadeEquitação ;
            :representa :ClubeSCBraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "kellie.holland@scbraga.org" ;
@@ -4183,7 +4183,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta288
 :Atleta288 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade0 ;
+           :pratica :ModalidadeFutebol ;
            :representa :ClubeEDViana ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "mathis.kirk@edviana.co.uk" ;
@@ -4197,7 +4197,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta289
 :Atleta289 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade6 ;
+           :pratica :ModalidadeOrientação ;
            :representa :ClubeGDGoma ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "bertha.shelton@gdgoma.biz" ;
@@ -4211,7 +4211,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta290
 :Atleta290 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade16 ;
+           :pratica :ModalidadeTénis ;
            :representa :ClubeSCBraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "bonnie.diaz@scbraga.biz" ;
@@ -4225,7 +4225,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta291
 :Atleta291 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade0 ;
+           :pratica :ModalidadeFutebol ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "becker.talley@clube de orientação do minho.us" ;
@@ -4239,7 +4239,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta292
 :Atleta292 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade15 ;
+           :pratica :ModalidadeEquitação ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "zelma.bell@clube de orientação do minho.com" ;
@@ -4253,7 +4253,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta293
 :Atleta293 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade8 ;
+           :pratica :ModalidadeBTT ;
            :representa :ClubeEDViana ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "stanton.cox@edviana.net" ;
@@ -4267,7 +4267,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta294
 :Atleta294 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade3 ;
+           :pratica :ModalidadeCiclismo ;
            :representa :ClubeAVCfamalicão ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "cindy.shepherd@avcfamalicão.tv" ;
@@ -4281,7 +4281,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta295
 :Atleta295 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade0 ;
+           :pratica :ModalidadeFutebol ;
            :representa :ClubeABCbraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "knapp.buckner@abcbraga.me" ;
@@ -4295,7 +4295,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta296
 :Atleta296 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade5 ;
+           :pratica :ModalidadeParapente ;
            :representa :ClubeABCbraga ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "callahan.mitchell@abcbraga.name" ;
@@ -4309,7 +4309,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta297
 :Atleta297 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade15 ;
+           :pratica :ModalidadeEquitação ;
            :representa :ClubeACRroriz ;
            :eFederado "False"^^xsd:boolean ;
            :temEmail "allie.lyons@acrroriz.ca" ;
@@ -4323,7 +4323,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta298
 :Atleta298 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade0 ;
+           :pratica :ModalidadeFutebol ;
            :representa :ClubeACDRcrespos ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "tammy.bryant@acdrcrespos.info" ;
@@ -4337,7 +4337,7 @@
 ### http://rpcw.di.uminho.pt/2025/emd#Atleta299
 :Atleta299 rdf:type owl:NamedIndividual , 
                     :Pessoa ;
-           :pratica :Modalidade7 ;
+           :pratica :ModalidadeEsgrima ;
            :representa :ClubeClube_de_Orientação_do_Minho ;
            :eFederado "True"^^xsd:boolean ;
            :temEmail "carissa.rosario@clube de orientação do minho.org" ;
