@@ -262,7 +262,8 @@ def writeFile(data:dict, outputFile:str) -> None:
         examIndent = " " * (16+len(idExame))
         idAtleta = exam["athlete"]
         date = exam["date"]
-        result = exam["result"]
+        result = str(exam["result"]).lower()
+        print(result)
         ttl += f"""### http://rpcw.di.uminho.pt/2025/emd#Exame{idExame}
 :Exame{idExame} rdf:type owl:NamedIndividual ,
 {examIndent}:Exame ;
