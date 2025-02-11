@@ -12,7 +12,6 @@ def parseJson(inputFile:str) -> dict:
     club_id = 0
     sports = {}
     sportSet = set()
-    sport_id = 0
     for exam in data:
         club_name = exam["clube"] 
         club_id = club_name.replace(" ", "_")
@@ -263,7 +262,6 @@ def writeFile(data:dict, outputFile:str) -> None:
         idAtleta = exam["athlete"]
         date = exam["date"]
         result = str(exam["result"]).lower()
-        print(result)
         ttl += f"""### http://rpcw.di.uminho.pt/2025/emd#Exame{idExame}
 :Exame{idExame} rdf:type owl:NamedIndividual ,
 {examIndent}:Exame ;
