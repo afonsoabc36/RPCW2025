@@ -1,0 +1,129 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.semanticweb.org/andre/ontologies/2015/6/historia#>
+
+# A. Quantos triplos existem na Ontologia?
+SELECT (count(?s) as ?triples) WHERE {
+    ?s ?p ?o .
+}
+
+# B. Que classes estão definidas?
+SELECT (count(?classe) as ?classes) WHERE {
+    ?classe rdf:type owl:Class .
+}
+
+# C. Que propriedades tem a classe "Rei"?
+SELECT ?property WHERE {
+    ?s a :Rei .
+    ?s ?property ?o .
+}
+
+# D. Quantos reis aparecem na ontologia?
+SELECT distinct ?s WHERE {
+    ?s a :Rei .
+}
+
+# E. Calcula uma tabela com o seu nome, data de nascimento e cognome.
+SELECT ?n ?d ?c WHERE {
+    ?s a :Rei ;
+	   :nome ?n ;
+       :nascimento ?d;
+	   :cognomes ?c.
+}
+
+# F. Acrescenta à tabela anterior a dinastia em que cada rei reinou.
+SELECT ?n ?dn ?c ?dinastia WHERE {
+    ?s a :Rei ;
+	   :nome ?n ;
+       :nascimento ?dn;
+	   :cognomes ?c;
+       :temReinado ?r.
+    ?r :dinastia ?din.
+    ?din :nome ?dinastia.
+}
+
+# G. Qual a distribuição de reis pelas 4 dinastias?
+SELECT ?dinastia (COUNT(?s) AS ?num) WHERE {
+    ?s a :Rei ;
+       :temReinado ?r.
+    ?r :dinastia ?din.
+    ?din :nome ?dinastia.
+}
+GROUP BY ?dinastia
+
+# H. Lista os descobrimentos (sua descrição) por ordem cronológica.
+SELECT ?descricao WHERE {
+    ?d a :Descobrimento;
+       :notas ?descricao;
+       :data ?date;
+}
+ORDER BY ?date
+
+# I. Lista as várias conquistas, nome e data, juntamento com o nome que reinava no momento.
+SELECT ?n ?d ?r WHERE {
+    ?c a :Conquista;
+    	:nome ?n;
+    	:data ?d;
+    	:temReinado ?reinado.
+    ?reinado :temMonarca ?rei.
+    ?rei :nome ?r.
+}
+
+# J. Calcula uma tabela com o nome, data de nascimento e número de mandatos de todos os presidentes portugueses.
+SELECT ?n ?d (COUNT(?m) as ?numMandatos) WHERE {
+    ?s a :Presidente;
+    	:nome ?n;
+    	:nascimento ?d;
+    	:mandato ?m.
+}
+GROUP BY ?n ?d
+
+# K. Quantos mandatos teve o presidente Sidónio Pais? Em que datas iniciaram e terminaram esses mandatos?
+# Número
+SELECT (COUNT(?m) as ?numMandatos) WHERE {
+    ?s a :Presidente;
+    	:nome "Sidónio Bernardino Cardoso da Silva Pais";
+    	:mandato ?m.
+}
+# Data de início e fim
+SELECT ?c ?f WHERE {
+    ?s a :Presidente;
+    	:nome "Sidónio Bernardino Cardoso da Silva Pais";
+    	:mandato ?m.
+    ?m :comeco ?c;
+    	:fim ?f;
+}
+# Tentativa de juntar os 2, aparece COUNT 1 para cada entrada na tabela
+SELECT (COUNT(?m) as ?numMandatos) ?c ?f WHERE {
+    ?s a :Presidente;
+    	:nome "Sidónio Bernardino Cardoso da Silva Pais";
+    	:mandato ?m.
+    ?m :comeco ?c;
+    	:fim ?f;
+}
+GROUP BY ?c ?f
+
+# L. Quais os nomes dos partidos políticos presentes na ontologia?
+SELECT DISTINCT ?n WHERE {
+    ?s a :Partido;
+    	:nome ?n.
+}
+
+# M. Qual a distribuição dos militantes por cada partido político?
+SELECT ?n (COUNT(?m) AS ?numMilitantes) WHERE {
+    ?s a :Partido ;
+    	:nome ?n;
+       :temMilitante ?m.
+}
+GROUP BY ?n
+
+# N. Qual o partido com maior número de presidentes militantes?
+SELECT ?n (COUNT(?m) AS ?numMilitantes) WHERE {
+    ?s a :Partido ;
+    	:nome ?n;
+       :temMilitante ?m.
+    ?m a :Presidente .
+}
+GROUP BY ?n
+ORDER BY DESC (?numMilitantes)
+LIMIT 1
