@@ -8,4 +8,4 @@
 
 ## Fotografia
 
-<img src="./myPhoto.jpg" alt="Fotografia do aluno" width="200">
+<img src="./picture.jpg" alt="Fotografia do aluno" width="200">
