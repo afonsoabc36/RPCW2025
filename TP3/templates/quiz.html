@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quiz da História de Portugal</title>
+  </head>
+  <body>
+    <h1>Quiz da História de Portugal</h1>
+    <p>Score: {{ session.get('score', 0) }}</p>
+    <form method="POST" action="/quiz">
+      <p><strong>{{ question.question }}</strong></p>
+      {% if question.type == "true_false" or question.type ==
+      "multiple_choice"%} {% for option in question.options %}
+      <label>
+        <input type="radio" name="answer" value="{{ option }}" required />
+        {{ option }} </label
+      ><br />
+      {% endfor %} {% endif %}
+      <input type="hidden" name="question" value="{{ question.question }}" />
+      <button type="submit">Submit Answer</button>
+    </form>
+  </body>
+</html>

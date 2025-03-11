@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Answer Result</title>
+  </head>
+  <body>
+    <h1>{{ 'Correct!' if correct else 'Wrong Answer!' }}</h1>
+    <p><strong>Question: {{ question }}</strong></p>
+    <p>Your answer was: <strong>{{ user_answer }}</strong></p>
+    {% if not correct %}
+    <p>The correct answer was: <strong>{{ correct_answer }}</strong></p>
+    {% endif %}
+    <p>Your current score: {{ score }}</p>
+    <a href="/quiz">Next Question</a> | <a href="/score">Finish Quiz</a>
+  </body>
+</html>
