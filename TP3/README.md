@@ -28,3 +28,19 @@
 - Em que ano nasceu o Rei {nome}?
 - Quantos mandatos cumpriu o Presidente {nome}?
 - O Presidente {nome} nasceu em que ano?
+
+## Run
+
+Primeiro, iniciar a API:
+
+```
+python3 app_api.py
+```
+
+Depois, correr a aplicação:
+
+```
+python3 app_jinja.py
+```
+
+Por último, navegar para o [website](http://localhost:5000/).
