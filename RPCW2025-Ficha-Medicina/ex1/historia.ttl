@@ -1,0 +1,435 @@
+@prefix : <http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/> .
+
+<http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/cria
+:cria rdf:type owl:ObjectProperty ;
+      owl:inverseOf :éCriadoPor ;
+      rdfs:domain :Pessoa ;
+      rdfs:range :Animal .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/cultiva
+:cultiva rdf:type owl:ObjectProperty ;
+         owl:inverseOf :éCultivadoPor ;
+         rdfs:domain :Pessoa ;
+         rdfs:range :Produto .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/possui
+:possui rdf:type owl:ObjectProperty ;
+        owl:inverseOf :temDono ;
+        rdfs:domain :Pessoa ;
+        rdfs:range :Fazenda .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/produz
+:produz rdf:type owl:ObjectProperty ;
+        owl:inverseOf :éProduzidoPor ;
+        rdfs:domain :Pessoa ;
+        rdfs:range :Produto .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/protege
+:protege rdf:type owl:ObjectProperty ;
+         rdfs:domain :Animal ;
+         rdfs:range :Fazenda .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/temDono
+:temDono rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/temTrabalhador
+:temTrabalhador rdf:type owl:ObjectProperty ;
+                owl:inverseOf :trabalhaEm .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/trabalhaEm
+:trabalhaEm rdf:type owl:ObjectProperty ;
+            rdfs:domain :Pessoa ;
+            rdfs:range :Fazenda .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/trocaCom
+:trocaCom rdf:type owl:ObjectProperty ,
+                   owl:SymmetricProperty ;
+          rdfs:domain :Pessoa ;
+          rdfs:range :Pessoa .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/vende
+:vende rdf:type owl:ObjectProperty ;
+       owl:inverseOf :éVendido ;
+       rdfs:domain :Pessoa ;
+       rdfs:range :Produto .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/vendeEm
+:vendeEm rdf:type owl:ObjectProperty ;
+         rdfs:domain :Pessoa ;
+         rdfs:range :Feira .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/éCriadoPor
+:éCriadoPor rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/éCultivadoPor
+:éCultivadoPor rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/éFilho
+:éFilho rdf:type owl:ObjectProperty ;
+        owl:inverseOf :éProgenitor ;
+        rdfs:domain :Pessoa ;
+        rdfs:range :Pessoa .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/éProduzidoPor
+:éProduzidoPor rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/éProgenitor
+:éProgenitor rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/éRealizadaEm
+:éRealizadaEm rdf:type owl:ObjectProperty ;
+              rdfs:domain :Feira ;
+              rdfs:range :Localidade .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/éVendido
+:éVendido rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/temNome
+:temNome rdf:type owl:DatatypeProperty ;
+         rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13#Alface
+:Alface rdf:type owl:Class ;
+        rdfs:subClassOf :Produto .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13#Banana
+:Banana rdf:type owl:Class ;
+        rdfs:subClassOf :Produto .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13#Cenoura
+:Cenoura rdf:type owl:Class ;
+         rdfs:subClassOf :Produto .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13#Laranja
+:Laranja rdf:type owl:Class ;
+         rdfs:subClassOf :Produto .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13#Maçã
+:Maçã rdf:type owl:Class ;
+      rdfs:subClassOf :Produto .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13#Tomate
+:Tomate rdf:type owl:Class ;
+        rdfs:subClassOf :Produto .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Agricultor
+:Agricultor rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( :Pessoa
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :cultiva ;
+                                                         owl:someValuesFrom :Produto
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] ;
+            rdfs:subClassOf :Pessoa .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Animal
+:Animal rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/AnimalGuarda
+:AnimalGuarda rdf:type owl:Class ;
+              owl:equivalentClass [ owl:intersectionOf ( :Animal
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty :protege ;
+                                                           owl:someValuesFrom :Fazenda
+                                                         ]
+                                                       ) ;
+                                    rdf:type owl:Class
+                                  ] ;
+              rdfs:subClassOf :Animal .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Cachorro
+:Cachorro rdf:type owl:Class ;
+          rdfs:subClassOf :Animal .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Criador
+:Criador rdf:type owl:Class ;
+         owl:equivalentClass [ owl:intersectionOf ( :Pessoa
+                                                    [ rdf:type owl:Restriction ;
+                                                      owl:onProperty :cria ;
+                                                      owl:someValuesFrom :Animal
+                                                    ]
+                                                  ) ;
+                               rdf:type owl:Class
+                             ] ;
+         rdfs:subClassOf :Pessoa .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Fazenda
+:Fazenda rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Feira
+:Feira rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Galinha
+:Galinha rdf:type owl:Class ;
+         rdfs:subClassOf :Animal .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Geleia
+:Geleia rdf:type owl:Class ;
+        rdfs:subClassOf :Produto .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Localidade
+:Localidade rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Pessoa
+:Pessoa rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Porco
+:Porco rdf:type owl:Class ;
+       rdfs:subClassOf :Animal .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Produto
+:Produto rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/TrabalhadorTemp
+:TrabalhadorTemp rdf:type owl:Class ;
+                 owl:equivalentClass [ owl:intersectionOf ( :Pessoa
+                                                            [ rdf:type owl:Restriction ;
+                                                              owl:onProperty :trabalhaEm ;
+                                                              owl:someValuesFrom :Fazenda
+                                                            ]
+                                                          ) ;
+                                       rdf:type owl:Class
+                                     ] ;
+                 rdfs:subClassOf :Pessoa .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Trator
+:Trator rdf:type owl:Class ;
+        rdfs:subClassOf :Veículo .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Vaca
+:Vaca rdf:type owl:Class ;
+      rdfs:subClassOf :Animal .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Vendedor
+:Vendedor rdf:type owl:Class ;
+          owl:equivalentClass [ owl:intersectionOf ( :Pessoa
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty :vende ;
+                                                       owl:someValuesFrom :Produto
+                                                     ]
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty :vendeEm ;
+                                                       owl:someValuesFrom :Feira
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
+                              ] ;
+          rdfs:subClassOf :Pessoa .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Veículo
+:Veículo rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Vila
+:Vila rdf:type owl:Class ;
+      rdfs:subClassOf :Localidade .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Alfaces
+:Alfaces rdf:type owl:NamedIndividual ,
+                  :Alface .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Ana
+:Ana rdf:type owl:NamedIndividual ,
+              :Pessoa ;
+     :éFilho :SrJoão ,
+             :SraMaria ;
+     :temNome "Ana" .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Banana
+:Banana rdf:type owl:NamedIndividual ,
+                 :Banana .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Cenouras
+:Cenouras rdf:type owl:NamedIndividual ,
+                   :Cenoura .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/FazendaSrCarlos
+:FazendaSrCarlos rdf:type owl:NamedIndividual ,
+                          :Fazenda .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/FazendaSrJoão
+:FazendaSrJoão rdf:type owl:NamedIndividual ,
+                        :Fazenda .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Galinha1
+:Galinha1 rdf:type owl:NamedIndividual ,
+                   :Galinha .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/GeleiaFrutas
+:GeleiaFrutas rdf:type owl:NamedIndividual ,
+                       :Geleia .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Laranja
+:Laranja rdf:type owl:NamedIndividual ,
+                  :Laranja .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Maçã
+:Maçã rdf:type owl:NamedIndividual ,
+               :Maçã .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Pedro
+:Pedro rdf:type owl:NamedIndividual ,
+                :Pessoa ;
+       :éFilho :SrJoão ,
+               :SraMaria ;
+       :temNome "Pedro" .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Porco1
+:Porco1 rdf:type owl:NamedIndividual ,
+                 :Porco .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Rex
+:Rex rdf:type owl:NamedIndividual ,
+              :Cachorro ;
+     :protege :FazendaSrJoão ;
+     :temNome "Rex" .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/SrCarlos
+:SrCarlos rdf:type owl:NamedIndividual ,
+                   :Pessoa ;
+          :cultiva :Alfaces ,
+                   :Cenouras ,
+                   :Tomates ;
+          :trocaCom :SrJoão ;
+          :vende :Alfaces ,
+                 :Cenouras ,
+                 :Tomates ;
+          :vendeEm :SãoJosé ;
+          :temNome "Carlos" .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/SrJoão
+:SrJoão rdf:type owl:NamedIndividual ,
+                 :Pessoa ;
+        :cria :Galinha1 ,
+              :Porco1 ,
+              :Vaca1 ;
+        :cultiva :Banana ,
+                 :Laranja ,
+                 :Maçã ;
+        :possui :FazendaSrJoão ;
+        :vende :Banana ,
+               :Laranja ,
+               :Maçã ;
+        :vendeEm :SãoJosé ;
+        :temNome "João" .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/SraMaria
+:SraMaria rdf:type owl:NamedIndividual ,
+                   :Pessoa ;
+          :produz :GeleiaFrutas ;
+          :vende :GeleiaFrutas ;
+          :vendeEm :SãoJosé .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/SãoJosé
+:SãoJosé rdf:type owl:NamedIndividual ;
+         :éRealizadaEm :VilaSãoJosé ;
+         :temNome "Feira de São José" .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Tomates
+:Tomates rdf:type owl:NamedIndividual ,
+                  :Tomate .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/TrabTemp1
+:TrabTemp1 rdf:type owl:NamedIndividual ,
+                    :Pessoa ;
+           :trabalhaEm :FazendaSrJoão .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/Vaca1
+:Vaca1 rdf:type owl:NamedIndividual ,
+                :Vaca .
+
+
+###  http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/VilaSãoJosé
+:VilaSãoJosé rdf:type owl:NamedIndividual ,
+                      :Vila .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi

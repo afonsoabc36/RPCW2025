@@ -1,0 +1,34 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX : <http://www.semanticweb.org/afonsoabc36/ontologies/2025/untitled-ontology-13/>
+
+1. Quantas classes estão definidas na Ontologia?
+SELECT (count(distinct ?c) as ?nc) WHERE {
+   ?c rdf:type owl:Class.
+   FILTER(STRSTARTS(STR(?c), STR(:)))
+}
+Obs: Filter necessário devido a classes _:nodeX no GraphDB
+
+2. Quantas Object Properties estão definidas na Ontologia?
+SELECT (count (distinct ?o) as ?on )WHERE {
+   ?o a owl:ObjectProperty.
+}
+
+3. Quantos indivíduos existem na tua ontologia?
+SELECT (count (distinct ?i) as ?in )WHERE {
+   ?i a owl:NamedIndividual.
+}
+
+4. Quem planta tomates?
+SELECT distinct ?s WHERE {
+   ?s a :Pessoa;
+      :cultiva ?f.
+   ?f a :Tomate.
+}
+
+5. Quem contrata trabalhadores temporários?
+SELECT distinct ?s WHERE {
+   ?t a :TrabalhadorTemp;
+      :trabalhaEm ?fazenda.
+   ?s :possui ?fazenda.
+}
